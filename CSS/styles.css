@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.ocultar {
+  display: none;
+}
+
+.seleccionJuego {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #1C2325, #7B8283);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.boton {
+  height: 2.5rem;
+  width: 7rem;
+  border: none;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  background: #B4B9BA;
+  border-radius: 2rem;
+}
+
+.boton:focus {
+  background-color: #5A8790;
+}
+
+.unJugadorContainer {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #1C2325, #7B8283);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.unJugadorContainer .cuadro {
+  width: 90vw;
+  height: 20rem;
+  text-align: center;
+}
+.unJugadorContainer .cuadro #cuadro-1 {
+  border-right: 5px solid #BCC4C6;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.unJugadorContainer .cuadro #cuadro-2 {
+  border-right: 5px solid #BCC4C6;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.unJugadorContainer .cuadro #cuadro-4 {
+  border-top: 5px solid #BCC4C6;
+  border-right: 5px solid #BCC4C6;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.unJugadorContainer .cuadro #cuadro-5 {
+  border-top: 5px solid #BCC4C6;
+  border-right: 5px solid #BCC4C6;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.unJugadorContainer .cuadro #cuadro-6 {
+  border-top: 5px solid #BCC4C6;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.unJugadorContainer .cuadro #cuadro-7 {
+  border-right: 5px solid #BCC4C6;
+  border-top: 5px solid #BCC4C6;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.unJugadorContainer .cuadro #cuadro-8 {
+  border-right: 5px solid #BCC4C6;
+  border-top: 5px solid #BCC4C6;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.unJugadorContainer .cuadro #cuadro-9 {
+  border-top: 5px solid #BCC4C6;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.jugadoresContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+}
+.jugadoresContainer .jugadorUno {
+  width: 50%;
+  height: 3rem;
+  background-color: #224784;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding-top: 0.5rem;
+}
+.jugadoresContainer .jugadorDos {
+  width: 50%;
+  height: 3rem;
+  background-color: #9B0D0D;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 0.5rem;
+}
+
+.circulo {
+  height: 60%;
+  width: 5rem;
+  background-color: #224784;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.cruz {
+  height: 90%;
+  position: relative;
+  width: 10px;
+  margin: auto;
+  background-color: #9B0D0D;
+  transform: rotate(45deg);
+}
+
+.cruz::after {
+  background-color: #9B0D0D;
+  content: "";
+  height: 10px;
+  left: -40px;
+  position: absolute;
+  top: 37px;
+  width: 90px;
+}
+
+.mensaje {
+  font: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
